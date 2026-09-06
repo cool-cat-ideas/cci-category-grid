@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/cci_categorygrid" source-language="en-US" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="cci_categorygrid_admin_1">
+        <source>CCI Category Grid</source>
+        <target>CCI Category Grid</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_2">
+        <source>Choose which categories appear on the PrestaShop homepage and whether each responsive card shows an image and subcategory links.</source>
+        <target>Wybierz kategorie widoczne na stronie głównej PrestaShop oraz zdjęcia i linki do podkategorii pokazywane na responsywnych kartach.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_3">
+        <source>Settings have been saved.</source>
+        <target>Ustawienia zostały zapisane.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_4">
+        <source>Category grid settings</source>
+        <target>Ustawienia siatki kategorii</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_5">
+        <source>Choose which categories are shown on front office and control the card presentation.</source>
+        <target>Wybierz kategorie widoczne w sklepie i ustaw wygląd kart.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_6">
+        <source>Display selected categories in a responsive front office grid and control image, submenu and category options in one place.</source>
+        <target>Wyświetlaj wybrane kategorie w responsywnej siatce i zarządzaj obrazami, podkategoriami oraz wyborem kategorii w jednym miejscu.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_7">
+        <source>Show Image Category</source>
+        <target>Pokaż obraz kategorii</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_8">
+        <source>Show Sub Category</source>
+        <target>Pokaż podkategorie</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_9">
+        <source>Number Sub Category</source>
+        <target>Liczba podkategorii</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_10">
+        <source>How many subcategories to show under each parent category.</source>
+        <target>Ile podkategorii pokazać pod każdą kategorią nadrzędną.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_11">
+        <source>Check Categories</source>
+        <target>Wybierz kategorie</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_12">
+        <source>Choose categories to show in the grid.</source>
+        <target>Wybierz kategorie do wyświetlenia w siatce.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_14">
+        <source>This module is only a fraction of what we do. We deliver custom IT solutions that grow with your business. We ensure complete code optimization and security.</source>
+        <target>Ten moduł to tylko ułamek tego, co robimy. Tworzymy rozwiązania IT, które można rozwijać razem z Twoją firmą. Dbamy o szybkość i bezpieczeństwo kodu.</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_15">
+        <source>We implement and develop:</source>
+        <target>Wdrażamy i rozwijamy:</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_16">
+        <source>Fast e-commerce on %highlight% (from implementations to custom modules)</source>
+        <target>Szybki e-commerce na %highlight% (od wdrożeń po własne wtyczki)</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_17">
+        <source>Flexible and modern %highlight% websites</source>
+        <target>Elastyczne i nowoczesne strony %highlight%</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_18">
+        <source>Scalable web applications in %highlight%</source>
+        <target>Skalowalne aplikacje webowe w %highlight%</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_19">
+        <source>Process automation and %highlight%</source>
+        <target>Automatyzację procesów i %highlight%</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_20">
+        <source>API integrations</source>
+        <target>Integracje API</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_22">
+        <source>See our offer</source>
+        <target>Zobacz naszą ofertę</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_admin_brand_about_us">
+        <source>About us</source>
+        <target>O nas</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

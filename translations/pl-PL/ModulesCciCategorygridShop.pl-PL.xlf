@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/cci_categorygrid" source-language="en-US" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="cci_categorygrid_shop_1">
+        <source>Product categories</source>
+        <target>Kategorie produktów</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_shop_2">
+        <source>Subcategories</source>
+        <target>Podkategorie</target>
+      </trans-unit>
+      <trans-unit id="cci_categorygrid_shop_3">
+        <source>No categories selected for the CCI Category Grid module.</source>
+        <target>Nie wybrano kategorii dla modułu CCI Category Grid.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
