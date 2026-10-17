@@ -2,6 +2,8 @@
 
 Choose which categories appear on the PrestaShop homepage. Decide whether each responsive card shows an image and how many subcategory links it contains.
 
+Download the module ZIP from the [Cool Cat Ideas product page](https://coolcatideas.com/products/cci-category-grid/).
+
 ## Set it up
 
 1. Install `cci_categorygrid-1.0.0.zip` in **Modules > Module Manager**.
@@ -23,8 +25,4 @@ Use the product repository under https://github.com/orgs/cool-cat-ideas/reposito
 - PrestaShop 9.0.0-9.1.5
 - AFL-3.0
 
-## Changelog
-
-### 1.0.0
-
-- First public release.
+Release history is available in the [changelog](CHANGELOG.md).

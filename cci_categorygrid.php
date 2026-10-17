@@ -489,7 +489,7 @@ class Cci_Categorygrid extends Module implements WidgetInterface
       . '<div class="cci-card-inner">'
       . '<div class="cci-hero-content">'
       . '<div class="cci-title-row">'
-      . '<span class="cci-title">' . $this->escapeHtml($this->displayName) . '</span>'
+      . '<span class="cci-title"><img class="cci-product-logo" src="' . $this->_path . 'views/img/cci-category-grid-logo.png?v=' . $this->getAssetVersion(__DIR__ . '/views/img/cci-category-grid-logo.png') . '" alt="' . $this->escapeHtml($this->displayName) . '" width="200" height="65"></span>'
       . '<span class="cci-version">v' . $this->escapeHtml($this->version) . '</span>'
       . '</div>'
       . '<p class="cci-subtitle">'

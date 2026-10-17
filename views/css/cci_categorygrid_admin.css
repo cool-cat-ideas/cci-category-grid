@@ -138,6 +138,12 @@
   gap: 10px;
   flex-wrap: wrap;
 }
+.cci-categorygrid-shell.cci-admin-shell .cci-product-logo {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
 
 .cci-categorygrid-shell.cci-admin-shell .cci-title {
   display: block;
