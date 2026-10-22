@@ -30,7 +30,7 @@ class Cci_Categorygrid extends Module implements WidgetInterface
     {
         $this->name = 'cci_categorygrid';
         $this->tab = 'front_office_features';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'Cool Cat Ideas';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -66,6 +66,27 @@ class Cci_Categorygrid extends Module implements WidgetInterface
           && parent::uninstall();
     }
 
+    private function canSaveAdminSettings(): bool
+    {
+        if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST'
+            || !Validate::isLoadedObject($this->context->employee)
+            || !$this->context->employee->hasAuthOnShop((int) $this->context->shop->id)) {
+            return false;
+        }
+        $controller = $this->context->controller;
+        if ($controller instanceof AdminController) {
+            return $controller->access('edit') && $controller->checkToken();
+        }
+        // The module manager in PrestaShop 9 uses a Symfony legacy context.
+        if (!$controller instanceof \PrestaShop\PrestaShop\Core\Context\LegacyControllerContext
+            || !$this->getPermission('configure')) {
+            return false;
+        }
+        $container = \PrestaShop\PrestaShop\Adapter\SymfonyContainer::getInstance();
+        return $container !== null
+            && $container->get(\PrestaShopBundle\Security\Admin\UserTokenManager::class)->isTokenValid();
+    }
+
     public function getContent()
     {
         $this->ensureAdminTab();
@@ -74,6 +95,11 @@ class Cci_Categorygrid extends Module implements WidgetInterface
         $sidebar = $this->getAdminPresentation()->renderBrandPanel();
 
         if ((bool) Tools::isSubmit('submitCciCategorygrid')) {
+            if (!$this->canSaveAdminSettings()) {
+                http_response_code(403);
+                return $this->displayError($this->l('You do not have permission to change these settings.'));
+            }
+
             $this->saveCategoryGridConfig();
             $output .= $this->displayConfirmation($this->trans('Settings have been saved.', [], 'Modules.CciCategorygrid.Admin'));
         }

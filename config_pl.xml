@@ -2,7 +2,7 @@
 <module>
     <name>cci_categorygrid</name>
     <displayName><![CDATA[CCI Category Grid]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Wybierz kategorie widoczne na stronie głównej PrestaShop oraz zdjęcia i linki do podkategorii pokazywane na responsywnych kartach.]]></description>
     <author><![CDATA[Cool Cat Ideas]]></author>
     <tab><![CDATA[front_office_features]]></tab>
