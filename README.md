@@ -8,7 +8,7 @@ Download the module ZIP from the [Cool Cat Ideas product page](https://coolcatid
 
 ## Set it up
 
-1. Install `cci_categorygrid-1.0.0.zip` in **Modules > Module Manager**.
+1. Download the current CCI Category Grid ZIP from the product page and install it in **Modules > Module Manager**.
 2. Open **Cool Cat Ideas > CCI Category Grid**.
 3. Select the categories you want to show.
 4. Choose whether to display images and subcategories.
