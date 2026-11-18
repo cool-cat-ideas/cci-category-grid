@@ -15,7 +15,7 @@ You should see the selected categories in the same order as on the settings page
 
 If nothing appears, clear the PrestaShop cache and check **Design > Positions**. The module should be attached to `displayHome`.
 
-The module works without a license key. It supports PrestaShop 9.0.0-9.1.5.
+The module works without a license key. It supports PrestaShop 9.0 through 9.2, including patch releases.
 
 ## More help
 

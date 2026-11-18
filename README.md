@@ -24,7 +24,7 @@ Use the product repository under https://github.com/orgs/cool-cat-ideas/reposito
 
 ## Compatibility
 
-- PrestaShop 9.0.0-9.1.5
+- PrestaShop 9.0 through 9.2, including patch releases
 - AFL-3.0
 
 Release history is available in the [changelog](CHANGELOG.md).
